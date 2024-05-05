@@ -1,28 +1,35 @@
 import React from "react";
+import Link from "next/link";
 
-interface Props {
-  isOpen: boolean;
-  onClose: () => void;
-}
 
-const Sidebar: React.FC<Props> = ({ isOpen, onClose }) => {
-  return (
-    <div className={`sidebar ${isOpen ? 'block' : 'hidden'}`}>
-      <div className="bg-gray-800 text-white py-4 px-3">
-        <h2 className="text-lg font-semibold">Sidebar</h2>
-        <button onClick={onClose} className="text-white focus:outline-none">
-          Fechar
-        </button>
+export default function Sidebar() {
+  return(
+    <div className=" w-screen h-14 bg-blue-900 gap-60 flex flex- items-center justify-center">
+      <Link href="/">
+      <div className="w-full h-full flex items-center justify-center">
+        <p className="text-2xl text-white font-bold">Home</p>
       </div>
-      <div className="bg-gray-700 p-4">
-        <ul>
-          <li>Link 1</li>
-          <li>Link 2</li>
-          <li>Link 3</li>
-        </ul>
+      </Link>
+      <Link href="/formacao">
+      <div className="w-full h-full flex items-center justify-center">
+        <p className="text-2xl text-white font-bold">Formação</p>
       </div>
+      </Link>
+      <Link href="/projects">
+      <div className="w-full h-full flex items-center justify-center">
+        <p className="text-2xl text-white font-bold">Projetos</p>
+      </div>
+      </Link>
+      <Link href="/experiencias">
+      <div className="w-full h-full flex items-center justify-center">
+        <p className="text-2xl text-white font-bold">Experiencias</p>
+      </div>
+      </Link>
+      <Link href="/contato">
+      <div className="w-full h-full flex items-center justify-center">
+        <p className="text-2xl text-white font-bold">Contato</p>
+      </div>
+      </Link>
     </div>
-  );
-};
-
-export default Sidebar;
+  )
+}
