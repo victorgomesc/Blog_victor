@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HistoryProjects from "@/components/HistoryProjects";
 import ProjectContainer from "@/components/ProjectContainer";
@@ -10,6 +11,7 @@ export default function Projects() {
             <Sidebar />
             <HistoryProjects />
             <ProjectContainer />
+            <Footer />
         </div>
     )
 }

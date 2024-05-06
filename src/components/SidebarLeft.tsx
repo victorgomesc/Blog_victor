@@ -7,27 +7,27 @@ export default function Sidebar() {
     <div className=" w-screen h-14 bg-blue-900 gap-60 flex flex- items-center justify-center">
       <Link href="/">
       <div className="w-full h-full flex items-center justify-center">
-        <p className="text-2xl text-white font-bold">Home</p>
+        <p className="text-2xl text-white font-bold hover:text-yellow-200">Home</p>
       </div>
       </Link>
       <Link href="/formacao">
       <div className="w-full h-full flex items-center justify-center">
-        <p className="text-2xl text-white font-bold">Formação</p>
+        <p className="text-2xl text-white font-bold hover:text-yellow-200">Formação</p>
       </div>
       </Link>
       <Link href="/projects">
       <div className="w-full h-full flex items-center justify-center">
-        <p className="text-2xl text-white font-bold">Projetos</p>
+        <p className="text-2xl text-white font-bold hover:text-yellow-200">Projetos</p>
       </div>
       </Link>
       <Link href="/experiencias">
       <div className="w-full h-full flex items-center justify-center">
-        <p className="text-2xl text-white font-bold">Experiencias</p>
+        <p className="text-2xl text-white font-bold hover:text-yellow-200">Experiencias</p>
       </div>
       </Link>
       <Link href="/contato">
       <div className="w-full h-full flex items-center justify-center">
-        <p className="text-2xl text-white font-bold">Contato</p>
+        <p className="text-2xl text-white font-bold hover:text-yellow-200">Contato</p>
       </div>
       </Link>
     </div>
