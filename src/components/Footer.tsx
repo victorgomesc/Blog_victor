@@ -3,7 +3,7 @@ import { Github, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
     return(
-        <footer className=" h-56 mt-10 w-full bg-gray-800 object-bottom">
+        <footer className=" h-56 mt-36 w-full bg-gray-800 object-bottom">
           <div className="flex flex-row">
              <div className="flex ml-20 w-1/5 flex-col mt-3 justify-center">
                 <p className="text-white mt-2 flex gap-2"><Instagram size={20} />: Victor_gomesc</p>
