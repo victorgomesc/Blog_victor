@@ -36,12 +36,35 @@ export default function HistoryFormação() {
                 por tudo que aprendi e decidido o que eu queria fazer apartir de agora, queria estudar e trabalhar com
                 tecnologia dali em diante.
             </p>
-            </div>
+            
             <h2 className="text-3xl mt-10">Conhecendo a area</h2>
             <p className="mt-10">
                 Após terminar o enssino medio dediquei o meu tempo a conhecer a area de tecnologia e como
-                funcioinava esse mercado no brasil
+                funcioinava esse mercado no Brasil, passei alguns anos estudando atravé de cursos e bootcamps
+                que conssegui encontrar na internet além de comunidades de programadores e documentações
+                disponiveis na internet, Um desses cursos que fiz foi o Ignite curso disponibilizado pela plataforma de
+                educação Rocket seat me especializei principalmente em desinvolvimento web nessa epoca
+                principalmente utilizando as linguagens Java Script, Type Script, React, Tailwind CSS, Next.js
+                também vi muitos conteudos relaionados a Node.js na plataforma da rocket seat, nesse mesmo
+                periodo tambem assisti a varios curssos da alura principalmente voltados para a area de desinvolvimento web
+                desinvolvi varios projetos que compoem meu portfolio. So que eu queria fazer um curso de nivel
+                superior nesta area então também comecei a estudar para entrar na universidade.
             </p>
+            <h2 className="text-3xl mt-10">Entrando na universidade</h2>
+            <p className="mt-10">
+                No ano de 2021 eu conssegui ingresar no curso de Engenharia de Computação na Universidade
+                Federal do Ceará NO no campus de quixada, essa decisão teve grande impacto na minha vida estava
+                realizando mais um sonho e agora tinha que morar em outra cidade para frequentar a universidade
+                o curso de engenharia de computação na UFC de quixada tem duração de 5 anos e a grade e voltada
+                para o desinvolvimento de Hardware e Software, nos primeiros semestres gostei muito de poder 
+                frequentar a universidade,lá aprimorei meus conhecimentos em tecnologia de uma forma geral
+                recebendo um conhecimento profundo sobre algoritimos estrutura de dados tecnologias, hardware e 
+                software, dentre varias outras areas de atuação como Ciencia de dados, machine Learning, Mobile
+                dentre outras desenvolvi varios projetos nessas areas e nas areas em que ja atuava. Estou no meu ultimo
+                ano na universidade grato pela minha jornada até aqui, estarei sempre atualizando essa pagina
+                comforme dou continuidade na minha carreira.
+            </p>
+            </div>
         </div>
     )
 }
