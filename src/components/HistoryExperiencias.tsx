@@ -8,7 +8,7 @@ export default function HistoryExperiencias(){
                 <h2 className="ml-6 mt-6 text-2xl font-bold items-center justify-center">
                     Desenvolvedor Full Stack-IncursoNet-(01/08/2019 até 31/01/2020)-Estagiario
                 </h2>
-                <ul className="mt-6 text-xl">
+                <ul className="mt-6 text-xl text-justify">
                     <li className="ml-6 mr-6">
                     Desepenhei um papel essencial no desenvolvimento da plataforma IncursoNet, combinando 
                     meus conhecimentos em React e Java Script para oferecer uma interface com a melhor
@@ -33,7 +33,7 @@ export default function HistoryExperiencias(){
                 <h2 className="ml-6 mt-6 text-2xl font-bold items-center justify-center">
                     Desenvolvedor Full Stack-Eaze Dine-(01/03/2022 até 31/01/2023)-Estagiário
                 </h2>
-                <ul className="mt-6 text-xl">
+                <ul className="mt-6 text-xl text-justify">
                     <li className="ml-6 mr-6">
                     Desepenhei um papel essencial no desenvolvimento da plataforma Eaze Dine, utilizando
                     todos meus conhecimentos para oferecer uma interface com a melhor experiencia de 
@@ -58,7 +58,7 @@ export default function HistoryExperiencias(){
                 <h2 className="ml-6 mt-6 text-2xl font-bold items-center justify-center">
                     Desenvolvedor Full Stack-Sistem Coop-(03/03/2023 até atualmente)-Junior
                 </h2>
-                <ul className="mt-6 text-xl">
+                <ul className="mt-6 text-xl text-justify">
                     <li className="ml-6 mr-6">
                     Desepenhei um papel essencial no desenvolvimento da plataforma Sistem Coop, utilizando
                     todos meus conhecimentos para oferecer uma interface com a melhor experiencia de 
