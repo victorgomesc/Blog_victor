@@ -21,22 +21,27 @@ export default function Footer() {
              </div>
              <div className="flex ml-20 w-1/5 flex-col mt-3 justify-center">
                 <p className="text-white mt-2 font-bold flex gap-2">Parcerias</p>
-                <p className="text-white mt-2 flex gap-2">Universidade federal do Ceara</p>
-                <p className="text-white mt-2 flex gap-2">Sistem Coop</p>
-                <p className="text-white mt-2 flex gap-2">Engenharia de computação</p>
-                <p className="text-white mt-2 flex gap-2">Coop Tech</p>
+                <Link href="https://www.quixada.ufc.br/">
+                  <p className="text-white mt-2 flex gap-2">Universidade federal do Ceara</p>
+                </Link>
+
+                <Link href="#">
+                  <p className="text-white mt-2 flex gap-2">Sistem Coop</p>
+                </Link>
+
+                <Link href="https://www.ec.quixada.ufc.br/">
+                  <p className="text-white mt-2 flex gap-2">Engenharia de computação</p>
+                </Link>
+
+                <Link href="#">
+                  <p className="text-white mt-2 flex gap-2">Coop Tech</p>
+                </Link>
              </div>
              <div className="flex ml-20 w-1/5 flex-col mt-3 justify-center">
-                <p className="text-white mt-2 flex gap-2">04/24/2024</p>
+                <p className="text-white mt-2 flex gap-2">09/05/2024</p>
                 <p className="text-white mt-2 flex gap-2">Versão 0.0.1</p>
-                <p className="text-white mt-2 flex gap-2">Author gomes victor</p>
-                <p className="text-white mt-2 flex gap-2">Victory_store</p>
+                <p className="text-white mt-2 flex gap-2">Autor: Victor Gomes</p>
                 <p className="text-white mt-2 flex gap-2">VGC Tec</p>
-             </div>
-             <div className="flex ml-64 w-1/5 flex-col mt-3 justify-start">
-                <p className=" text-white mt-2 gap-2">Nike</p>
-                <p className="text-white mt-2 gap-2">Adidas</p>
-                <p className="text-white mt-2 gap-2">Pulma</p>
              </div>
           </div>
         </footer>
