@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HistoryExperiencias from "@/components/HistoryExperiencias";
 import Sidebar from "@/components/SidebarLeft";
@@ -8,6 +9,7 @@ export default function Experiencias() {
             <Header />
             <Sidebar />
             <HistoryExperiencias />
+            <Footer />
         </div>
     )
 }
