@@ -44,7 +44,7 @@ export default function Footer() {
                 <p className="text-white mt-2 flex gap-2">VGC Tec</p>
              </div>
              <div className="flex ml-20 w-1/5 flex-col mt-3 justify-center">
-               <p className="text-lg text-white italic">"Primeiro, lembre de olhar para as estrelas e não para seus pés."</p>
+               <p className="text-lg text-white italic">Primeiro, lembre de olhar para as estrelas e não para seus pés.</p>
                <p className="text-lg text-white mt-2">Stephen Hawking</p>
              </div>
           </div>
