@@ -101,6 +101,30 @@ export default function ProjectContainer(){
             </div>
         </div>
 
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
+            <div className="max-w-3/5 h-full">
+            <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
+                <source src="./assets/spot.webm" />
+            </video>
+            </div>
+            <div className="w-2/5 h-full bg-blue flex flex-col justify-center items-center">
+                <h1 className="mt-6 text-3xl font-bold">Spotify Clone</h1>
+                <p className="ml-8 text-justify mt-12 flex flex-col mr-8">
+                Olá e com grande prazer que venho compartilhar com vocês mais um projeto, dessa vez
+                 trata-se de um sistema de controle financeiro que eu desenvolvi durante
+                  a trilha Ignite/React. Esse sistema de controle financeiro trata-se de 
+                  uma aplicação simples mais que foi utilizadas varias tecnologias modernas 
+                  como JavaScript, TypeScript, React, Next.js, o sistema consiste de uma listagem 
+                  de entradas e saídas além de uma seção que faz o soma das entradas, das saídas e 
+                  do total, além de uma barra de busca. Também utilizei um arquivo JsonServer para 
+                  guardar e consultar minhas informações. Bom pessoal é isso espero que gostem.
+                </p>
+                <Link href="https://github.com/victorgomesc/DT_Money">
+                    <p className="text-green-500 font-bold mt-12">Link do repositorio</p>
+                </Link>
+            </div>
+        </div>
+
         </>
         
     )
