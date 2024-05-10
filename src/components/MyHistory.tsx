@@ -41,18 +41,18 @@ export default function MyHistory() {
             <br />
             <p className="text-justify font-bold">
                 Skills: Java Script, Type Script, React, Next.js, TailiwindCSS, Node.js, GSAP, Three.js, SQL,
-                Python, Docker, Vercel, AWS, C#, .NET, Jest, Styled Components, Redux.
+                Python, Docker, Vercel, AWS, C#, .NET, Jest, Prisma, MongoDB, Styled Components, Redux.
             </p>
-            <p className="mt-6 text-xl font-semibold">
+            <p className="mt-6 text-xl font-bold">
                 Idiomas:
             </p>
-            <p className="mt-4 text-xl">
+            <p className="mt-4 text-xl font-bold">
                 Português: Fluente.
             </p>
-            <p className="mt-4 text-xl">
+            <p className="mt-4 text-xl font-bold">
                 Inglês: Avançdo.
             </p>
-            <p className="mt-4 text-xl">
+            <p className="mt-4 text-xl font-bold">
                 Espanhol: Avançado.
             </p>
         </div>
