@@ -12,18 +12,21 @@ export default function ProjectContainer(){
             <div className="w-2/5 h-full bg-blue flex flex-col justify-center items-center">
                 <h1 className="mt-6 text-3xl font-bold">IPhone Website</h1>
                 <p className="ml-8 mt-12 flex flex-col mr-8 text-justify">
-                Olá, gostaria de compartilhar com todos mais uma etapa de aprendizado, dessa vez estive
-                 estudando e desenvolvendo uma pagina web com imagens 3D e seções animadas, nesse projeto
-                  utilizei varias tecnologias dentre elas Java Script, React e TailwindCSS, só que
-                   o diferencial e maior destaque são as imagens 3D e as animações, para a quais eu
-                    utilizei o GSAP que é uma biblioteca do Java Script utilizada nas animações da nossa
-                     pagina que ajuda a dar vida e animação aos componentes, e o Three.js que é uma 
-                     biblioteca que foi utilizada para manipular os pacotes de imagens 3D e que garantem 
-                     uma ótima experiencia do usuário, todas as imagens utilizadas são imagens disponibi
-                     lizadas pela Apple. Bom pessoal é isso espero que gostem.
+                Olá, gostaria de compartilhar mais um projeto, desta vez uma pagina animada com 
+                varios elementos animados e imagens 3D, quero dar destaque para as imagens 3D que
+                implementei utilizando o Three.js e as animaçãoes que utilizei a biblioteca GSAP para dar
+                vida aos components. Outro ponto que quero destacar é o Server Side Redering que é uma 
+                forma de renderizar com antecedência as paginas no servidor, deixando as paginas do 
+                nosso sistema mais rápidas melhorando a experiência do usuário.
+                </p>
+                <p className="ml-8 mt-2 flex flex-col mr-8 text-justify font-semibold">
+                    Skills: Java Script, Type Script, React, Next.js, Tailwind CSS, Redux, Jest, GSAP, 
+                    Three.js, Vercel.
                 </p>
                 <Link href="https://github.com/victorgomesc/apple_website">
-                    <p className="text-green-500 font-bold mt-12">Link do repositorio</p>
+                    <div className="w-60 bg-blue-600 h-12 rounded-full flex items-center justify-center mt-12">
+                    <p className="text-white font-bold">Link do repositorio</p>
+                    </div>
                 </Link>
             </div>
         </div>
@@ -37,21 +40,20 @@ export default function ProjectContainer(){
             <div className="w-2/5 h-full bg-blue flex flex-col justify-center items-center">
                 <h1 className="mt-6 text-3xl font-bold">T-shirt Soccer</h1>
                 <p className="ml-8 mt-12 flex flex-col mr-8 text-justify">
-                Olá pessoal, é com grande satisfação que venho compartilhar com vocês mas um projeto
-                 pessoal em que estive trabalhando,
-                No front end da aplicação utilizei Type Script, React e Next.js, dando um pouco
-                mas de destaque para o React e o Next que utilizei para implementar o Server
-                Side Rendering que é uma forma de renderizar com antecedência as paginas no
-                servidor, deixando as paginas do nosso sistema mais rápidas melhorando a
-                experiência do usuário, ainda no Front end utilizei Tailwind.CSS para
-                estilizar todos os componentes. Já o Back end estive pensando em fazer
-                com Node.js e utilizar alguma arquitetura distribuída como micro serviços
-                para deixar sessões independentes umas das outras e o sistema mais fluido.
-                Bom pessoal por enquanto isso e tudo vou dar continuidade ao projeto e
-                qualquer mudança atualizo tudo para vocês.
+                Olá pessoal, trago pra voces mais um projeto, dessa vez eu desenvolvi um e-commerce
+                uma loja virtual que vende camisas de futebol, chamei o sistema de T-shirt Soccer, nele 
+                utilizei um recurso do Next.js que é o Server Side Redering que é uma 
+                forma de renderizar com antecedência as paginas no servidordeixando o sistema mais rapido
+                e eficiente para o usuário.
+                </p>
+                <p className="ml-8 mt-2 flex flex-col mr-8 text-justify font-semibold">
+                    Skills: Java Script, Type Script, React, Next.js, Tailwind CSS, Redux, Jest, Node.js
+                    , MongoDB, Prisma, React Query, Vercel.
                 </p>
                 <Link href="https://github.com/victorgomesc/Victory_shoop">
-                    <p className="text-green-500 font-bold mt-12">Link do repositorio</p>
+                <div className="w-60 bg-blue-600 h-12 rounded-full flex items-center justify-center mt-12">
+                    <p className="text-white font-bold">Link do repositorio</p>
+                    </div>
                 </Link>
             </div>
         </div>
@@ -71,8 +73,14 @@ export default function ProjectContainer(){
                 14 proporcionou uma renderização rápida e eficiente, garantindo uma navegação fluida em 
                 toda a aplicação.
                 </p>
+                <p className="ml-8 mt-2 flex flex-col mr-8 text-justify font-semibold">
+                    Skills: Java Script, Type Script, React, Next.js, Tailwind CSS, Redux, Jest, C#, .NET,
+                    , MongoDB Prisma, React Query, Vercel.
+                </p>
                 <Link href="https://github.com/victorgomesc/Cars_showcase">
-                    <p className="text-green-500 font-bold mt-12">Link do repositorio</p>
+                <div className="w-60 bg-blue-600 h-12 rounded-full flex items-center justify-center mt-12">
+                    <p className="text-white font-bold">Link do repositorio</p>
+                </div>
                 </Link>
             </div>
         </div>
@@ -95,8 +103,14 @@ export default function ProjectContainer(){
                   do total, além de uma barra de busca. Também utilizei um arquivo JsonServer para 
                   guardar e consultar minhas informações. Bom pessoal é isso espero que gostem.
                 </p>
+                <p className="ml-8 mt-2 flex flex-col mr-8 text-justify font-semibold">
+                    Skills: Java Script, Type Script, React, Next.js, Tailwind CSS, Redux, Jest, MongoDB,
+                    , Prisma, React Query, Vercel.
+                </p>
                 <Link href="https://github.com/victorgomesc/DT_Money">
-                    <p className="text-green-500 font-bold mt-12">Link do repositorio</p>
+                <div className="w-60 bg-blue-600 h-12 rounded-full flex items-center justify-center mt-12">
+                    <p className="text-white font-bold">Link do repositorio</p>
+                    </div>
                 </Link>
             </div>
         </div>
@@ -119,8 +133,13 @@ export default function ProjectContainer(){
                   do total, além de uma barra de busca. Também utilizei um arquivo JsonServer para 
                   guardar e consultar minhas informações. Bom pessoal é isso espero que gostem.
                 </p>
+                <p className="ml-8 mt-2 flex flex-col mr-8 text-justify font-semibold">
+                    Skills: Java Script, Type Script, React, Next.js, Tailwind CSS, Vercel.
+                </p>
                 <Link href="https://github.com/victorgomesc/DT_Money">
-                    <p className="text-green-500 font-bold mt-12">Link do repositorio</p>
+                <div className="w-60 bg-blue-600 h-12 rounded-full flex items-center justify-center mt-12">
+                    <p className="text-white font-bold">Link do repositorio</p>
+                    </div>
                 </Link>
             </div>
         </div>

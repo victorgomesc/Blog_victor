@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function BanerContato() {
     return(
         <>
-        <h1 className="text-3xl font-bold mt-10">Me encontre através de:</h1>
+        <h1 className="text-3xl font-bold mt-10">Entre em contato comigo pelos canais abaixo</h1>
         <div className="w-full h-full bg-white grid grid-cols-6
          items-center justify-center rounded-3xl flex-col mt-32">
 
@@ -52,15 +52,15 @@ export default function BanerContato() {
             </div>
             </Link>
         </div>
-        <h1 className="mt-36 text-3xl font-bold">Deixe sua opinião</h1>
+        <h1 className="mt-36 text-3xl font-bold">Deixe sua sugestão :)</h1>
         <form className="flex flex-col mt-16 items-center border-solid border-4 w-2/6">
-            <label className="text-xl font-semibold mt-8">Digite seu nome</label>
+            <label className="text-xl font-semibold mt-8">Digite seu nome:</label>
             <input className="border-solid text-2xl w-96 mt-6 border-2 border-sky-200
              hover:border-sky-700" type="text" />
             <label className="text-xl font-semibold mt-8">Digite seu email:</label>
             <input className="border-solid text-2xl w-96 mt-6 border-2 border-sky-200
              hover:border-sky-700" type="text" />
-            <label className="text-xl font-semibold mt-8">Digite sua sugestão</label>
+            <label className="text-xl font-semibold mt-8">Digite sua sugestão:</label>
             <textarea className="border-solid mt-6 w-96 border-2 border-sky-200 hover:border-sky-700 h-36">
             </textarea>
             <button type="submit" className="w-44 h-10 mt-10 bg-blue-800 hover:bg-blue-600
