@@ -3,8 +3,9 @@ import Link from "next/link"
 export default function ProjectContainer(){
     return(
         <>
-        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
-            <div className="max-w-3/5 h-full">
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl 
+        hover:scale-110 transform transition duration-300 ease-in-out">
+            <div className="max-w-3/5 h-full ">
             <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
                 <source src="./assets/iphone.webm" />
             </video>
@@ -31,7 +32,8 @@ export default function ProjectContainer(){
             </div>
         </div>
 
-        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl 
+        hover:scale-110 transform transition duration-300 ease-in-out">
             <div className="max-w-3/5 h-full">
             <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
                 <source src="./assets/grav1.webm" />
@@ -58,7 +60,8 @@ export default function ProjectContainer(){
             </div>
         </div>
 
-        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl 
+        hover:scale-110 transform transition duration-300 ease-in-out">
             <div className="max-w-3/5 h-full">
             <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
                 <source src="./assets/carros.webm" />
@@ -85,7 +88,8 @@ export default function ProjectContainer(){
             </div>
         </div>
 
-        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl 
+        hover:scale-110 transform transition duration-300 ease-in-out">
             <div className="max-w-3/5 h-full">
             <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
                 <source src="./assets/grav2.webm" />
@@ -115,7 +119,8 @@ export default function ProjectContainer(){
             </div>
         </div>
 
-        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl 
+        hover:scale-110 transform transition duration-300 ease-in-out">
             <div className="max-w-3/5 h-full">
             <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
                 <source src="./assets/spot.webm" />
