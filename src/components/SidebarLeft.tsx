@@ -17,7 +17,7 @@ export default function Sidebar() {
       </Link>
       <Link href="/projects">
       <div className="w-full h-full flex items-center justify-center">
-        <p className="text-2xl text-white font-bold hover:text-yellow-400">Projetos</p>
+        <p className="text-2xl text-white font-bold hover:text-yellow-400">Portfolio</p>
       </div>
       </Link>
       <Link href="/experiencias">

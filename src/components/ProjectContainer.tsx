@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function ProjectContainer(){
     return(
         <>
-        <div className="h-[60vh] w-[80%] mt-16 bg-purple-100 flex justify-start rounded-3xl">
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
             <div className="max-w-3/5 h-full">
             <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
                 <source src="./assets/iphone.webm" />
@@ -56,7 +56,7 @@ export default function ProjectContainer(){
             </div>
         </div>
 
-        <div className="h-[60vh] w-[80%] mt-16 bg-gray-100 flex justify-start rounded-3xl">
+        <div className="h-[60vh] w-[80%] mt-16 bg-gray-200 flex justify-start rounded-3xl">
             <div className="max-w-3/5 h-full">
             <video muted loop autoPlay className=" object-contain w-full h-full rounded-3xl">
                 <source src="./assets/carros.webm" />
