@@ -129,14 +129,12 @@ export default function ProjectContainer(){
             <div className="w-2/5 h-full bg-blue flex flex-col justify-center items-center">
                 <h1 className="mt-6 text-3xl font-bold">Spotify Clone</h1>
                 <p className="ml-8 text-justify mt-12 flex flex-col mr-8">
-                Olá e com grande prazer que venho compartilhar com vocês mais um projeto, dessa vez
-                 trata-se de um sistema de controle financeiro que eu desenvolvi durante
-                  a trilha Ignite/React. Esse sistema de controle financeiro trata-se de 
-                  uma aplicação simples mais que foi utilizadas varias tecnologias modernas 
-                  como JavaScript, TypeScript, React, Next.js, o sistema consiste de uma listagem 
-                  de entradas e saídas além de uma seção que faz o soma das entradas, das saídas e 
-                  do total, além de uma barra de busca. Também utilizei um arquivo JsonServer para 
-                  guardar e consultar minhas informações. Bom pessoal é isso espero que gostem.
+                Gostaria de compartilhar este projeto consiste na criação de um clone do Spotify, 
+                uma plataforma popular de streaming de música, utilizando tecnologias modernas como 
+                TypeScript, React, Tailwind CSS e Next.js. O projeto e composto principalmente pela 
+                interface do Spotify, que foi desenvolvida exclusivamente com as tecnologias citadas 
+                acima, o objetivo desse projeto é desenvolver as habilidades em estilização de projetos 
+                utilizando Tailwind CSS.
                 </p>
                 <p className="ml-8 mt-2 flex flex-col mr-8 text-justify font-semibold">
                     Skills: Java Script, Type Script, React, Next.js, Tailwind CSS, Vercel.
