@@ -3,6 +3,30 @@ import Link from "next/link";
 
 
 export default function Sidebar() {
+  
+  const links = [
+    {
+      name: "About",
+      path: "#about",
+    },
+    {
+      name: "Formação",
+      path: "#formacao",
+    },
+    {
+      name: "Portfolio",
+      path: "#portfolio",
+    },
+    {
+      name: "Experiencias",
+      path: "#experiencias",
+    },
+    {
+      name: "Contato",
+      path: "#contato",
+    },
+  ];
+
   return(
     <div className=" w-screen h-16 bg-blue-900 gap-60 flex flex- items-center justify-center">
       <Link href="/">
